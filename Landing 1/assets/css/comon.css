@@ -1,0 +1,119 @@
+*{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: inherit;
+}
+
+.gui-border{
+    border: 1px solid red;
+}
+
+.text-padding{
+    padding: 4%;
+}
+
+/* ///////////////////////////////// header ////////////////////////////////// */
+header{
+    width: inherit;
+    height: 40px;
+}
+
+.header-logo{
+    display: block;
+    width: 10%;
+    height: inherit;
+    float: left;
+}
+
+.header-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.header-nav{
+    display: block;
+    width: 89%;
+    height: inherit;
+    float: right;
+}
+
+/* ///////////////////////////////// nav ////////////////////////////////// */
+
+nav{
+    width: 70%;
+    height: inherit;
+    float: right;
+    text-align: right;
+/*     padding: 12px; */
+}
+
+nav ul{
+    margin: 10px 12px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav a{
+    color: gray;
+    font-size: 13px;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav a:hover{
+    cursor: pointer;
+    color:darkviolet ;
+}
+
+/* ///////////////////////////////// body ////////////////////////////////// */
+
+main{
+    max-width: 800px;
+    margin: auto;
+}
+
+/* ///////////////////////////////// section ////////////////////////////////// */
+
+section{
+    width: inherit;
+    overflow:auto;
+}
+
+.section-dosColumnas__rigth{
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.section-dosColumnas__left{
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.img-header{
+    width: inherit;
+    background-color: rgba(0, 0, 0,0.2);
+}
+
+.section3-img{
+    background-color: rgba(0, 0, 0,0.2);
+}
+
+.section3-img img{
+    width: 100%;
+}
+/* ///////////////////////////////// section - la otra ////////////////////////////////// */
